@@ -14,7 +14,7 @@ app.get('/api/users', async (request, response) => {
         const users = await getAllUsers();
         response.json(users);
     } catch (error) {
-        response.status(500).json({error: 'Erreur seveur !'});
+        response.status(500).json({error: 'Erreur serveur !'});
     }
 });
 
