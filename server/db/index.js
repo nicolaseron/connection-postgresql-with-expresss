@@ -1,6 +1,6 @@
 import dotenv from 'dotenv';
-dotenv.config({path: '../../.env'});
 import pg from 'pg';
+dotenv.config({path: '../../.env'});
 
 const { Pool } = pg;
 
